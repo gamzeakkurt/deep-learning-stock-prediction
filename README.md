@@ -12,9 +12,9 @@ Using **Yahoo Finance data**, we apply **Exploratory Data Analysis (EDA), Featur
 
 ✅ Retrieve stock market data using `yfinance` 📈  
 ✅ Perform **EDA** to visualize trends & correlations 📊  
-✅ Engineer key features like **moving averages, RSI, MACD**  
+✅ Extracting features like **RSI, MACD,Bollinger Bands, Moving Averages vs.**  
 ✅ Preprocess the data for deep learning (normalization, handling missing values)  
-✅ Implement an **LSTM model** for stock price forecasting 🧠  
+✅ Implement an **LSTM and Linear Regression models** for stock price forecasting 🧠  
 ✅ Evaluate predictions using **RMSE, MAE, and R² scores**  
 ✅ Compare actual vs. predicted stock prices 📉  
 
@@ -26,7 +26,7 @@ Using **Yahoo Finance data**, we apply **Exploratory Data Analysis (EDA), Featur
 🔹 **Step 2:** Exploratory Data Analysis (EDA)  
 🔹 **Step 3:** Feature Engineering (Technical Indicators)  
 🔹 **Step 4:** Data Preprocessing (Normalization, Reshaping)  
-🔹 **Step 5:** LSTM Model Training & Prediction  
+🔹 **Step 5:** LSTM & Linear Regression Models Training & Prediction  
 🔹 **Step 6:** Model Evaluation (Error Metrics)  
 🔹 **Step 7:** Results & Visualization  
 
