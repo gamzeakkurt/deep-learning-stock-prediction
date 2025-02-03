@@ -18,6 +18,7 @@ Using **Yahoo Finance data**, we apply **Exploratory Data Analysis (EDA), Featur
 ✅ Evaluate predictions using **RMSE, MAE, and R² scores**  
 ✅ Compare actual vs. predicted stock prices 📉  
 
+
 ---
 
 ## 🏗️ Project Workflow  
@@ -49,10 +50,19 @@ pip install -r requirements.txt
 
 ### 📌 **3. Run the Jupyter Notebook**  
 ```bash
-jupyter notebook
+python main.py
 ```
-Open `Stock_Market_Analysis.ipynb` and execute the cells.
+Open `main.py` and execute the cells.
 
+To run the full analysis and forecasting pipeline, execute the main.py file. This will sequentially:
+
+- Load stock data from Yahoo Finance
+- Perform exploratory data analysis (EDA)
+- Process data with feature engineering and normalization
+- Train and evaluate a Linear Regression model
+- Train and evaluate an LSTM model
+- Forecast future stock prices
+- Visualize results and save predictions
 ---
 
 ## 📦 Dependencies  
@@ -90,8 +100,9 @@ pip install yfinance pandas numpy matplotlib seaborn scikit-learn tensorflow ker
 🔍 **Example Visualization:**  
 
 <p align="center">
-  <img src="images/stock_trend.png" width="600">
+  <img src="EDA-images/output_59_0.png" width="600">
 </p>
+
 
 ---
 
@@ -120,7 +131,7 @@ The model is evaluated using the following metrics:
 
 🔍 **Example Prediction Plot:**  
 
-<p align="center"><img width="600" alt="Screenshot 2025-01-30 at 22 13 28" src="https://github.com/user-attachments/assets/2277dac4-5b66-4cda-bb63-9d1929128101" />
+<p align="center"><img width="600" alt="Screenshot 2025-01-30 at 22 13 28" src="https://github.com/gamzeakkurt/deep-learning-stock-prediction/blob/main/EDA-images/output_126_0.png" />
 
 
 </p>
