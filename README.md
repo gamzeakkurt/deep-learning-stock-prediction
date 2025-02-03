@@ -51,7 +51,7 @@ cd deep-learning-stock-prediction
 pip install -r requirements.txt
 ```
 
-### 📌 **3. Run the Jupyter Notebook**  
+### 📌 **3. Run the Python**  
 ```bash
 python main.py
 ```
@@ -109,18 +109,41 @@ pip install yfinance pandas numpy matplotlib seaborn scikit-learn tensorflow ker
 
 ---
 
-## 🏗️ LSTM Model Overview  
 
-### **Why LSTM?**  
-LSTM (Long Short-Term Memory) networks are a type of recurrent neural network (RNN) that are effective for **time-series forecasting** due to their ability to capture long-term dependencies.  
 
-**Model Architecture:**  
-- Input Shape: `(n_timesteps, 18)`  
-- LSTM Layers: 2 stacked LSTMs  
-- Fully Connected (Dense) Layer  
-- Activation: ReLU  
-- Optimizer: Adam  
-- Loss Function: Mean Squared Error (MSE)  
+## 🏗️ LSTM Model Architecture
+
+The **BiLSTM (Bidirectional Long Short-Term Memory)** model used for stock price prediction follows the architecture below:
+
+### **Model Overview**
+- **Input Shape:** `(n_timesteps, 18)`  
+  The input consists of sequences with `n_timesteps` (time steps) and 18 features for each time step.
+  
+- **LSTM Layers:**  
+  - **3 stacked Bidirectional LSTM layers** with 64 units each.  
+  The bidirectional nature allows the model to learn from both past and future data points.
+
+- **Fully Connected Layer (Dense Layer):**  
+  A Dense layer with 32 units and **ReLU activation** to learn complex patterns from the LSTM outputs.
+  
+- **Output Layer:**  
+  A final **Dense layer** with 1 unit to predict the **'Close' price** of the stock.
+
+### **Model Parameters**
+- **Activation Function:**  
+  - Hidden layers: **ReLU** activation  
+  - Output layer: **Linear activation**
+  
+- **Optimizer:**  
+  **Adam optimizer** for efficient training and learning.
+  
+- **Loss Function:**  
+  **Huber loss** for robust training, balancing between Mean Squared Error (MSE) and Mean Absolute Error (MAE).
+
+
+This architecture is designed to effectively capture complex patterns in time-series data, particularly for stock price forecasting.
+
+
 
 ---
 
@@ -147,9 +170,18 @@ All details regarding the code, including visualization, results, and interpreta
 
 ## 📌 Future Improvements  
 
-🔹 Include **news sentiment analysis** for better predictions  
-🔹 Optimize **hyperparameters** for improved accuracy  
-🔹 Compare LSTM results with **ARIMA, XGBoost, and CNN models**  
+🔹 **Hyperparameter Optimization:** We will fine-tune model parameters to enhance predictive
+accuracy and reduce errors.
+
+🔹 **Model Comparison:** In addition to LSTM, we will evaluate and compare performance with
+ARIMA, XGBoost, and CNN models to identify the most effective approach.
+
+🔹 **Feature Expansion:** We plan to incorporate additional financial indicators and external
+factors (e.g., market sentiment, economic trends) to improve model robustness.
+
+🔹 **Hybrid Model Approach:** Combining LSTM with ARIMA, XGBoost, and CNN to
+leverage both deep learning and traditional statistical methods for improved performance.
+
 
 ---
 
