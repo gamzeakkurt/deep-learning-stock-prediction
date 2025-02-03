@@ -1,0 +1,12 @@
+yfinance
+ta
+Quantstats
+PyPortfolioOpt
+pandas==1.3.5 
+numpy 
+matplotlib
+seaborn
+plotly
+scikit-learn 
+tensorflow
+keras 
