@@ -6,6 +6,9 @@ Stock market prediction is a crucial area in financial analysis. Prices of stock
 
 Using **Yahoo Finance data**, we apply **Exploratory Data Analysis (EDA), Feature Engineering, Preprocessing, and Long Short-Term Memory (LSTM) Regression modeling** to predict stock prices.  
 
+
+
+
 ---
 
 ## 🎯 Objectives  
@@ -52,7 +55,7 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-Open `main.py` and execute the cells.
+Open `main.py` and execute the code.
 
 To run the full analysis and forecasting pipeline, execute the main.py file. This will sequentially:
 
@@ -112,7 +115,7 @@ pip install yfinance pandas numpy matplotlib seaborn scikit-learn tensorflow ker
 LSTM (Long Short-Term Memory) networks are a type of recurrent neural network (RNN) that are effective for **time-series forecasting** due to their ability to capture long-term dependencies.  
 
 **Model Architecture:**  
-- Input Shape: `(n_timesteps, 1)`  
+- Input Shape: `(n_timesteps, 18)`  
 - LSTM Layers: 2 stacked LSTMs  
 - Fully Connected (Dense) Layer  
 - Activation: ReLU  
@@ -135,6 +138,10 @@ The model is evaluated using the following metrics:
 
 
 </p>
+
+
+## 📄 Additional Information
+All details regarding the code, including visualization, results, and interpretation, are available in the PDF document. You can download it for an in-depth understanding of the analysis and forecasting process.
 
 ---
 
