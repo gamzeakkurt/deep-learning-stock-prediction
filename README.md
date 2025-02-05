@@ -156,7 +156,7 @@ The model is evaluated using the following metrics:
 
 🔍 **Example Prediction Plot:**  
 
-<p align="center"><img width="600" alt="Screenshot 2025-01-30 at 22 13 28" src="https://github.com/gamzeakkurt/deep-learning-stock-prediction/blob/main/EDA-images/output_126_0.png" />
+<p align="center"><img width="600" alt="Screenshot 2025-01-30 at 22 13 28" src="https://github.com/gamzeakkurt/deep-learning-stock-prediction/blob/main/EDA-images/output_113_0.png" />
 
 
 </p>
