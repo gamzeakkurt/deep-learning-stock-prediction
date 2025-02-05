@@ -153,7 +153,6 @@ The model is evaluated using the following metrics:
 
 📌 **Root Mean Square Error (RMSE)**  
 📌 **Mean Absolute Error (MAE)**  
-📌 **R² Score (Coefficient of Determination)**  
 
 🔍 **Example Prediction Plot:**  
 
@@ -164,7 +163,7 @@ The model is evaluated using the following metrics:
 
 
 ## 📄 Additional Information
-All details regarding the code, including visualization, results, and interpretation, are available in the PDF document. You can download it for an in-depth understanding of the analysis and forecasting process.
+All details regarding the code, including visualization, results, and interpretation, are available in the 'YahooFinanceStockMarketAnalysis-Report.pdf' document. You can download it for an in-depth understanding of the analysis and forecasting process.
 
 ---
 
