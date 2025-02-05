@@ -18,7 +18,7 @@ Using **Yahoo Finance data**, we apply **Exploratory Data Analysis (EDA), Featur
 ✅ Extracting features like **RSI, MACD,Bollinger Bands, Moving Averages vs.**  
 ✅ Preprocess the data for deep learning (normalization, handling missing values)  
 ✅ Implement an **LSTM and Linear Regression models** for stock price forecasting 🧠  
-✅ Evaluate predictions using **RMSE, MAE, and R² scores**  
+✅ Evaluate predictions using **RMSE, and MAE scores**  
 ✅ Compare actual vs. predicted stock prices 📉  
 
 
