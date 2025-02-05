@@ -89,7 +89,7 @@ plotly
 
 You can install them using:  
 ```bash
-pip install yfinance pandas numpy matplotlib seaborn scikit-learn tensorflow keras plotly
+pip install yfinance quantstats ta PyPortfolioOpt pandas numpy matplotlib seaborn scikit-learn tensorflow keras plotly
 ```
 
 ---
