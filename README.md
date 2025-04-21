@@ -190,6 +190,10 @@ This project is licensed under the **MIT License**.
 
 ---
 
+## 🔍 Keywords
+#yahoofinance #finance #economics #deeplearning #stockprediction #machinelearning #eda 
+
+
 
 ## 📬 Contact  
 
