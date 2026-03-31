@@ -7,7 +7,7 @@ Stock market prediction is a crucial area in financial analysis. Prices of stock
 Using **Yahoo Finance data**, we apply **Exploratory Data Analysis (EDA), Feature Engineering, Preprocessing, and Long Short-Term Memory (LSTM) Regression modeling** to predict stock prices.  
 
 
-
+The notebook file and update other models are available at: [Kaggle Notebook](https://www.kaggle.com/code/gamzeakkurt/yahoo-stock-forecasting-60-days-lstm-arima-prophet)
 
 ---
 
